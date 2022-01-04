@@ -3,4 +3,5 @@
     <string name="home">홈</string>
     <string name="chatting">채팅</string>
     <string name="mypage">나의 정보</string>
+    <string name="title_home_fragment">중고 거래</string>
 </resources>
