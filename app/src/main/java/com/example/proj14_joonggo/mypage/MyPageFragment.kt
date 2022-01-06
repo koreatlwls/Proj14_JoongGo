@@ -30,6 +30,7 @@ class MyPageFragment : Fragment(R.layout.fragment_mypage) {
                 val password = binding.passwordEditText.text.toString()
 
                 if (auth.currentUser == null) {
+                    //로그인
                     auth.signInWithEmailAndPassword(email, password)
                         .addOnCompleteListener(requireActivity()) { task ->
                             if (task.isSuccessful) {
@@ -108,7 +109,7 @@ class MyPageFragment : Fragment(R.layout.fragment_mypage) {
             }
         } else {
             binding?.let { binding ->
-                binding.emailEditText.setText(auth.currentUser?.email)
+                binding.emailEditText.setText(auth.currentUser!!.email)
                 binding.passwordEditText.setText("***********")
                 binding.emailEditText.isEnabled = false
                 binding.passwordEditText.isEnabled = false

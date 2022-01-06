@@ -11,4 +11,6 @@
     <string name="add_image_text">이미지 등록하기</string>
     <string name="signup_text">회원가입</string>
     <string name="signinout_text">로그인</string>
+    <string name="chat_text">채팅</string>
+    <string name="mypage_text">마이페이지</string>
 </resources>
