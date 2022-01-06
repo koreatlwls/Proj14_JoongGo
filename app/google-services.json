@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "533197704534",
+    "project_id": "joonggo-ab627",
+    "storage_bucket": "joonggo-ab627.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533197704534:android:8f79aec41facfd889b9af7",
+        "android_client_info": {
+          "package_name": "com.example.proj14_joonggo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533197704534-uoo9p3iq68rv33b2l2efl8ghemb95qlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjQPnxv6WG1kn8YTxnWxE5nq1uBp_LRXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533197704534-uoo9p3iq68rv33b2l2efl8ghemb95qlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
